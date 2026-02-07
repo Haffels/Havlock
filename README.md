@@ -1,4 +1,4 @@
-# Umbra
+# Havlock
 
 > Your files. Your encryption. Your control.
 
@@ -8,9 +8,9 @@ A cross-platform encrypted backup and sync tool that puts privacy first. Think D
 [![C++](https://img.shields.io/badge/C++-17-00599C.svg)](https://isocpp.org/)
 [![Status](https://img.shields.io/badge/status-in%20development-yellow.svg)]()
 
-## What is Umbra?
+## What is Havlock?
 
-Umbra is an encrypted backup solution that ensures your data remains private, even when stored in the cloud. All encryption happens locally on your device before any data leaves your system.
+Havlock is an encrypted backup solution that ensures your data remains private, even when stored in the cloud. All encryption happens locally on your device before any data leaves your system.
 
 **Key Principles:**
 - **Zero-knowledge**: Your files are encrypted before they leave your device
@@ -35,7 +35,7 @@ Umbra is an encrypted backup solution that ensures your data remains private, ev
 - **Deduplication** - Never backup the same data twice
 - **Resumable uploads** - Pick up where you left off
 
-## Why Umbra?
+## Why Havlock?
 
 **For Privacy-Conscious Users:**
 - Cloud providers can't read your data
@@ -56,8 +56,8 @@ Umbra is an encrypted backup solution that ensures your data remains private, ev
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Umbra.git
-cd Umbra
+git clone https://github.com/haffels/Havlock.git
+cd Havlock
 
 # Build (instructions coming soon)
 mkdir build && cd build
@@ -65,10 +65,10 @@ cmake ..
 make
 
 # Encrypt a file
-./Umbra encrypt myfile.txt
+./Havlock encrypt myfile.txt
 
 # Decrypt a file
-./Umbra decrypt myfile.txt.Umbra
+./Havlock decrypt myfile.txt.Havlock
 ```
 
 ## Development Roadmap
